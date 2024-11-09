@@ -9,4 +9,4 @@
 
 ### Issues Encountered
 - **Random Attribute Assignment**: Faced challenges with ensuring unique attributes for each shape. Fixed by properly calling the `randat()` method before each shape draw.
-- **Turtle Performance**: Drawing large numbers of shapes slowed down the rendering. Improved speed using `turtle.tracer(0)` for faster screen updates. (I used Chatgpt to help with this)
+- **Turtle Performance**: Drawing large numbers of shapes slowed down the rendering. Improved speed using `turtle.tracer(0)` for faster screen updates. (I used Chatgpt to help with this by using `turtle.update()`)
